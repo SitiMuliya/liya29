@@ -1,0 +1,98 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>😉Selamat Datang Di Website Profile - Siti Muliya😉</title>
+    <link rel="icon" href="Liya_cropped.png" type="image/x-icon">
+    <style>
+        #text-container {
+            font-size: 32px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body background="walpaper2.webp">
+    <table cellspacing="20">
+        <tr>
+            <td>
+                <img src="Liya_cropped.png" alt="Foto Profil" style="width: 100px; height: 100px; border-radius: 50px;">
+            </td>
+            <td>
+                <div id="nama">
+                    <h1>Siti Muliya</h1>
+                </div>
+                <p><em>Mahasiswa</em><strong>
+                        <a href="https://unucirebon.ac.id" target="_blank">Universitas Nahdlatul Ulama Cirebon</a>
+                    </strong></p>
+                <p><em><strong>Fakultas Ilmu Komputer</strong></em></p>
+                <p><em>Program Studi Teknik Informatika</em></p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Riwayat Pendidikan</h3>
+    <table>
+        <tr>
+            <td>2008 - 2014</td>
+            <td>SDN Penggung Utara Cirebon</td>
+        </tr>
+        <tr>
+            <td>2014 - 2017</td>
+            <td>SMPN 9 Kota Cirebon</td>
+        </tr>
+        <tr>
+            <td>2017 - 2020</td>
+            <td>SMAN 9 Cirebon</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Hobi</h3>
+    <table cellspacing="20">
+        <tr>
+            <td>Membaca</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Renang</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Traveling</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+    </table>
+    <style>
+        /* CSS untuk memberikan jarak antara tautan */
+        p {
+            margin-top: 10px;
+            /* Margin atas 10px */
+        }
+
+        p a {
+            margin-right: 20px;
+            /* Margin kanan 20px antara tautan */
+        }
+    </style>
+    <p>
+        <a href="hobi.html">Hobi</a>
+        <a href="kontak.html">Kontak</a>
+    </p>
+    <script>
+        const textContainer =
+            document.getElementById("nama");
+
+        let hue = 0;
+
+        setInterval(() => {
+            hue = (hue + 1) % 360;
+            const color = `hsl(${hue}, 100%, 50%)`;
+            textContainer.style.color = color;
+        }, 5); 
+    </script>
+</body>
+
+</html>
